@@ -13,19 +13,25 @@ Install with this command:
 npm install gitbook-plugin-baidu
 ```
 
-### Use Plugin
+or add this to your `book.json` config:
 
-First you should have a Baidu Analytics token, looks like `c12134efe8099063bacebecb25df3b7d`.
-
-Then add this plugin to your book.json config:
-
-```
+```json
 {
     "plugin": ["baidu"]
 }
 ```
 
-Then add your token to `pluginsConfig`:
+and install it using:
+
+```shell
+gitbook install ./
+```
+
+### Use Plugin
+
+First you should have a Baidu Analytics token, looks like `c12134efe8099063bacebecb25df3b7d`.
+
+Then add your token to `book.json` config:
 
 ```
 {
