@@ -21,7 +21,7 @@ Then add this plugin to your book.json config:
 
 ```
 {
-	"plugin": ["baidu"]
+    "plugin": ["baidu"]
 }
 ```
 
@@ -29,12 +29,12 @@ Then add your token to `pluginsConfig`:
 
 ```
 {
-	"plugin": ["baidu"],
-	"pluginsConfig": {
-		"baidu": {
-			"token": "YOUR TOKEN"
-		}
-	}
+    "plugin": ["baidu"],
+    "pluginsConfig": {
+        "baidu": {
+            "token": "YOUR TOKEN"
+        }
+    }
 }
 ```
 
