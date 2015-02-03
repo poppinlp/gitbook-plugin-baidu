@@ -10,7 +10,7 @@ A gitbook plugin to add Baidu Analytics for your book
 Install with this command:
 
 ```shell
-npm install gitbook-plugin-baidu --save
+npm install gitbook-plugin-baidu
 ```
 
 ### Use Plugin
