@@ -48,4 +48,4 @@ Finally build your book with gitbook again and you'll get what you want.
 
 ### History
 
-- Ver 0.0.1 init
+- Ver 0.0.2 init
