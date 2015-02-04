@@ -33,7 +33,7 @@ First you should have a Baidu Analytics token, looks like `c12134efe8099063baceb
 
 Then add your token to `book.json` config:
 
-```
+```json
 {
     "plugin": ["baidu"],
     "pluginsConfig": {
