@@ -1,6 +1,6 @@
 {
     "name": "gitbook-plugin-baidu",
-    "version": "0.0.2",
+    "version": "0.1.0",
     "description": "Baidu Analytics tracking for your gitbook.",
     "main": "index.js",
     "repository": {
@@ -18,6 +18,15 @@
     "readmeFilename": "README.md",
     "engines": {
         "gitbook": ">=0.4.6"
+    },
+    "gitbook": {
+        "properties": {
+            "token": {
+                "type": "string",
+                "required": true,
+                "description": "Token for Baidu analytics"
+            }
+        }
     },
     "homepage": "https://github.com/poppinlp/gitbook-plugin-baidu",
     "license": "MIT",
